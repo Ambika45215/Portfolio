@@ -19,7 +19,7 @@ header {
 body {
     width: 100vw;
     font-family: "Lora", sans-serif;
-    background-image: url("back.jpg");
+    background-image: url("Pics/back.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -204,7 +204,7 @@ a {
 
 /* styling inside of the cards both front and back */
 .about>:nth-child(1) {
-    background-image: url("school.jpg");
+    background-image: url("Pics/school.jpg");
     background-position: center;
     background-size: contain;
 }
@@ -216,14 +216,14 @@ a {
 }
 
 .about> :nth-child(2) {
-    background-image: url("inter.jpg");
+    background-image: url("Pics/inter.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .about> :nth-child(3) {
-    background-image: url("college.jpg");
+    background-image: url("Pics/college.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
