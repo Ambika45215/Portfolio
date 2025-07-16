@@ -26,17 +26,23 @@
     <div class="overlay"></div>
     <header>
         <nav>
-            <div class="logo">
-                <span>Port</span><span>folio</span>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+            <ul class="sidebar">
+                <li onclick="hidesidebar()"><a href="#"><img src="./Pics/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+                <li class="logo"><span>Port</span><span>folio</span></li>
+                <li class="hidemenu"><a href="#">Home</a></li>
+                <li class="hidemenu"><a href="#">About</a></li>
+                <li class="hidemenu"><a href="#">Skills</a></li>
+                <li class="hidemenu"><a href="#">Projects</a></li>
+                <li class="hidemenu"><a href="#">Contact</a></li>
+                <li onclick="sidebar()" class="menu"><a href="#"><img src="./Pics/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+            </ul>
             </div>
         </nav>
     </header>
@@ -88,22 +94,22 @@
 
         <section class="skills">
             <div class="cube">
-            <div class="box1">
-                <img src="Pics/letter-c.png" alt="" width="128px">
-                <p>C Language</p>
-            </div>
-            <div class="box2">
-                <img src="Pics/text.png" alt="" width="128px">
-                <p>CSS</p>
-            </div>
-            <div class="box3">
-                <img src="Pics/html.png" alt="" width="128px">
-                <p>HTML</p>
-            </div>
-            <div class="box4">
-                <img src="Pics/js.png" alt="" width="128px">
-                <p>JavaScript</p>
-            </div>
+                <div class="box1">
+                    <img src="Pics/letter-c.png" alt="" width="128px">
+                    <p>C Language</p>
+                </div>
+                <div class="box2">
+                    <img src="Pics/text.png" alt="" width="128px">
+                    <p>CSS</p>
+                </div>
+                <div class="box3">
+                    <img src="Pics/html.png" alt="" width="128px">
+                    <p>HTML</p>
+                </div>
+                <div class="box4">
+                    <img src="Pics/js.png" alt="" width="128px">
+                    <p>JavaScript</p>
+                </div>
             </div>
         </section>
         <hr class="line">
@@ -124,23 +130,33 @@
                         <tr>
                             <td>1.</td>
                             <td>Project 1</td>
-                            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat molestias dolore numquam dolorem delectus quo!</td>
+                            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat molestias dolore
+                                numquam dolorem delectus quo!</td>
                             <td><a href="#">Github</a>
-                            <a href="#">LinkedIn</a></td>
+                                <a href="#">LinkedIn</a>
+                            </td>
                         </tr>
                         <tr>
                             <td>2.</td>
                             <td>Project 2</td>
-                            <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, sit! Consequuntur distinctio omnis amet. Animi iure laborum consectetur veritatis laudantium similique impedit explicabo fugiat quibusdam nesciunt! Et nisi consequatur nihil non architecto doloribus temporibus consequuntur, maiores iste? Maxime aliquid nihil eligendi nemo saepe quos non nisi, corrupti, rem nesciunt magnam?</td>
+                            <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, sit! Consequuntur
+                                distinctio omnis amet. Animi iure laborum consectetur veritatis laudantium similique
+                                impedit explicabo fugiat quibusdam nesciunt! Et nisi consequatur nihil non architecto
+                                doloribus temporibus consequuntur, maiores iste? Maxime aliquid nihil eligendi nemo
+                                saepe quos non nisi, corrupti, rem nesciunt magnam?</td>
                             <td><a href="#">Github</a>
-                            <a href="#">LinkedIn</a></td>
+                                <a href="#">LinkedIn</a>
+                            </td>
                         </tr>
                         <tr>
                             <td>3.</td>
                             <td>Project 3</td>
-                            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat quas ipsa recusandae veritatis maxime illo ut corrupti aliquam distinctio consequuntur, optio ea error. Nam delectus totam nemo veniam consequuntur? Eius?</td>
+                            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat quas ipsa recusandae
+                                veritatis maxime illo ut corrupti aliquam distinctio consequuntur, optio ea error. Nam
+                                delectus totam nemo veniam consequuntur? Eius?</td>
                             <td><a href="#">Github</a>
-                            <a href="#">LinkedIn</a></td>
+                                <a href="#">LinkedIn</a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>

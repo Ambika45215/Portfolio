@@ -4,3 +4,12 @@ card.forEach((e) => {
         e.classList.toggle("rotate");
     });
 });
+
+function sidebar(){
+       let side=document.body.querySelector(".sidebar")
+       side.style.display="flex";
+   }
+   function hidesidebar(){
+       let hide=document.body.querySelector(".sidebar")
+       hide.style.display="none";
+   }
