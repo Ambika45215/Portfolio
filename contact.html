@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Personal Portfolio</title>
+    <!-- Website Image link -->
+    <link rel="shortcut icon" href="./Pics/apple-touch-icon.png" type="image/x-icon">
+
+    <!-- Body font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hidesidebar()"><a href="#"><img
+                            src="./Pics/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+                <li class="logo"><span>Port</span><span>folio</span></li>
+                <li class="hidemenu"><a href="#">Home</a></li>
+                <li class="hidemenu"><a href="#">About</a></li>
+                <li class="hidemenu"><a href="#">Skills</a></li>
+                <li class="hidemenu"><a href="#">Projects</a></li>
+                <li class="hidemenu" style="text-decoration: underline;"><a href="#">Contact</a></li>
+                <li onclick="sidebar()" class="menu"><a href="#"><img
+                            src="./Pics/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <div class="heading">Contact</div>
+            <div class="details">
+                <p><img src="Pics/telephone.png" alt=""><span>+91 7013396142</span></p>
+                <p><img src="Pics/email.png" alt=""><span>ambikareddy6789@gmail.com</span></p>
+                <p><img src="Pics/translator.png" alt=""><span>Telugu, English, Hindi</span></p>
+                <p><img src="Pics/house.png" alt=""><span>Guntur,Andhra Pradesh</span></p>
+                <p><a href="#"><img src="Pics/linkedin.png" alt=""></a></p>
+                <p><a href="#"><img src="Pics/github.png" alt=""></a></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

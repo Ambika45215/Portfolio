@@ -18,7 +18,7 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    overflow-x: hidden;
+    overflow: hidden;
     position: relative;
 }
 
@@ -108,6 +108,10 @@ nav ul li a {
     .hidemenu {
         display: none;
     }
+}
+
+.hidemenu a:hover {
+    text-decoration: underline;
 }
 
 /* main section home page  */
@@ -339,7 +343,7 @@ nav ul li a {
 /* project page  */
 .projects {
     width: 100%;
-    height: 99vh;
+    height: 100vh;
     color: white;
     display: flex;
     justify-content: center;
@@ -371,6 +375,11 @@ caption {
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 50px;
+}
+
+tbody td a {
+    color: white;
+    text-decoration: none;
 }
 
 tbody td a:hover {

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+    <!-- Website Image link -->
+    <link rel="shortcut icon" href="./Pics/apple-touch-icon.png" type="image/x-icon">
+
+    <!-- Body font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+    </style>
+    
+    <!-- card font -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="overlay"></div>
+     <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick="hidesidebar()"><a href="#"><img src="./Pics/close_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+                <li class="logo"><span>Port</span><span>folio</span></li>
+                <li class="hidemenu"><a href="#">Home</a></li>
+                <li class="hidemenu"><a href="#" style="text-decoration: underline;">About</a></li>
+                <li class="hidemenu"><a href="#">Skills</a></li>
+                <li class="hidemenu"><a href="#">Projects</a></li>
+                <li class="hidemenu"><a href="#">Contact</a></li>
+                <li onclick="sidebar()" class="menu"><a href="#"><img src="./Pics/menu_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+            <div class="cards">
+                <div class="front">School</div>
+                <div class="back">
+                    <p><u>Secondary School Education</u></p>
+                    <p>* Board of Secondary Education, Andhra Pradesh</p>
+                    <p>* Completed in 2019 with <span>10/10 </span> Grade Points (GPA) under State Syllabus.</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="front">Inter</div>
+                <div class="back">
+                    <p><u>Higher Secondary Education</u></p>
+                    <p>* Board of Intermediate Education, Andhra Pradesh</p>
+                    <p>* Completed in 2021 with an aggregate of <span>982/1000</span> marks under the State Syllabus</p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="front">College</div>
+                <div class="back">
+                    <p><u>Bachelor's of Technology</u></p>
+                    <p>* Electronics and Communication Engineering, Parul University, Gujarat</p>
+                    <p>* Graduated in 2025 with <span>7.93/10</span> CGPA</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
